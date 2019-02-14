@@ -117,3 +117,8 @@ footer {
 	font-size: 0.5em;
 	margin-top: 8px;
 }
+
+.header a {
+	display: inline-block;
+	margin: auto;
+}
