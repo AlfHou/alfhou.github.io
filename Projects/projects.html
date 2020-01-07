@@ -17,8 +17,11 @@
         </a>
     </div>
     <ul class="project-list">
-        <li id="tmp">
-            Work in progress...
+        <li>
+			<a href="http://lowfare-train.alfhouge.no"> Lowfare Train</a>
+			<p>A Single Page Application built using Vue and .NET Core
+			that let's you see the cheapest price for train tickets 
+			for the train company in a nice monthly view</p>
         </li>
     </ul>
     <footer>
@@ -27,24 +30,3 @@
 </body>
 
 </html>
-<script>
-
-    setInterval(progressLoader, 500);
-
-    function progressLoader() {
-        let wipText = document.getElementById("tmp");
-        let wip = "Work in progress"
-        if (wipText.innerText.length >= 19) {
-            wipText.innerText = wip;
-            return;
-        }
-        wipText.innerText = wipText.innerText + "."
-
-    }
-</script>
-<style>
-    #tmp {
-        text-align: left;
-
-    }
-</style>
